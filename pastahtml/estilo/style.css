@@ -30,11 +30,14 @@ img.Boss{
     margin: auto;
 }
 div.Bosses{
+    border: 5px solid black;
+    padding: 0px;
     text-align: center;
     max-width: 60%;
     margin: 10px auto;
     background-color: white;
     display: block;
+    box-shadow: 2px 2px 50px black;
 
 }
 img.seta{
@@ -44,7 +47,7 @@ img#voltar{
     transform: scaleX(-1);
 }
 p.header{
-
+margin: 0px;
 }
 p.header > span.bossname{
     display: block;
@@ -115,4 +118,20 @@ div.menuresistencias{
 }
 div.menuimunidades > ul{
     columns: 2;
+}
+div.descrição{
+    background-color:  rgb(206, 206, 206);
+}
+div.descrição>p{
+    margin-bottom: 0px;
+}
+div.descriçãobasíca{
+    background-color: rgb(206, 206, 206);
+}
+div.fundo{
+    background-image: url(../imagens/background2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
