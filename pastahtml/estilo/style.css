@@ -3,9 +3,6 @@
     font-family:dsfont;
     src: url("../Fontes/OptimusPrinceps.ttf") format('truetype');   
     }
-/*Mudar img de alguns bosses e fazer uma healtbar nos "HP"*/
-/*Arredondar os buttons*/
-/*Adicionar a pseudo-classe :hover em algumas partes*/
 *{
     font-family: "dsfont";
 }
@@ -38,7 +35,13 @@ div.Bosses{
     background-color: white;
     display: block;
     box-shadow: 2px 2px 50px black;
-
+}
+button{
+    padding: 10px;
+    border-radius: 100%;
+}
+button:hover{
+    background-image: linear-gradient(45deg, #fe5e65, #623e48);
 }
 img.seta{
     width: 50px;
@@ -135,3 +138,25 @@ div.fundo{
     background-size: cover;
     background-attachment: fixed;
 }
+footer{
+    margin: 10px -7px -10px -7px;
+    background-color: black;
+    font-size: 25px;
+    text-align: center;
+    
+}
+footer >p {
+    margin: 0px;
+    color: white;
+}
+footer > p > a{
+    color: red;
+    text-decoration: none;
+}
+footer > p > a:hover{
+    color: black;
+    background-color: white;
+    padding: 1px;
+    border-radius: 10px;
+}
+
