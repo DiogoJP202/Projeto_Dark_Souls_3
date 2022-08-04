@@ -30,6 +30,7 @@ div.Bosses{
     border: 5px solid black;
     padding: 0px;
     text-align: center;
+    min-width: 400px;
     max-width: 60%;
     margin: 10px auto;
     background-color: white;
@@ -112,6 +113,9 @@ div.imunidades{
     background-color: rgb(30, 255, 0);
     border-style: solid;
     border-width: 1px;
+}
+ul{
+    padding: 0px;
 }
 div.menufraqueza > ul{
     columns: 3;
