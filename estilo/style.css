@@ -34,18 +34,20 @@ img.Boss{
     max-width: 100%;
     margin: auto;
 }
-div.Bosses{
-    border: 5px solid black;
+ul.bosses{
     padding: 0px;
+    margin: auto;
     text-align: center;
     min-width: 320px;
     max-width: 60%;
-    margin: 10px auto;
-    background-color: white;
     display: block;
+}
+li.Bosses{
+    margin: 5px;
+    background-color: white;
+    border: 5px solid black;
     box-shadow: 2px 2px 50px black; 
 }
-
 button{
     padding: 10px;
     border-radius: 100%; 
