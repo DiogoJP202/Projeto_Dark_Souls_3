@@ -17,11 +17,11 @@
         </h1>
     </header>
     <section>
-        <button id="voltar">
+        <button id="voltar" onclick="voltar()">
             <img src="imagens/seta.png" alt="Seta" class="seta" id="voltar" >
         </button>
 <ul type="none" class="bosses">
-    <li class="Bosses selecionado" >
+    <li class="Bosses" id="selecionado">
             <div class="fundo">
                 <p class="header">
                     <span class="bossname">
@@ -1861,8 +1861,8 @@
             </div>
     </li>
 </ul>
-<button>
-    <img src="imagens/seta.png" alt="Seta" id="proximo" class="seta">
+<button onclick="avancar()" id="proximo">
+    <img src="imagens/seta.png" alt="Seta" class="seta">
 </button>
     </section>
     <footer>

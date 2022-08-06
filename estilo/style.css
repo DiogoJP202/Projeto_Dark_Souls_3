@@ -52,7 +52,7 @@ li.Bosses{
     position: absolute;
     transition: opacity 0.2s ease-in-out;
 }
-li.Bosses.selecionado{
+li#selecionado{
     opacity: 1;
     z-index: 1;
 }
