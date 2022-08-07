@@ -155,6 +155,9 @@ ul{
 
 div.descrição{
     background-color:  rgb(206, 206, 206);
+    text-align: center;
+    max-height: 300px;
+    overflow-y: auto;
 }
 div.descrição>p{
     margin-bottom: 0px;
@@ -162,6 +165,7 @@ div.descrição>p{
 div.descriçãobasíca{
     background-color: rgb(206, 206, 206);
     display: flex;
+    text-align: left;
     justify-content: center;
 }
 div.fundo{
