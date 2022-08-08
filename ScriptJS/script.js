@@ -24,7 +24,7 @@ function voltar(){
     cartoes[cartaoatual].setAttribute('id', 'selecionado')
 }
 }
-let botãoV = document.getElementById('voltar').addEventListener('touchstart', () => { 
+let botãoV = document.getElementById('voltar').addEventListener('touchend', () => { 
     if(cartaoatual < 1){
         window.alert('Começo Da Lista!') 
         cartaoatual = 0
@@ -37,7 +37,7 @@ let botãoV = document.getElementById('voltar').addEventListener('touchstart', (
 }
 }
 )
-let botãoP = document.getElementById('proximo').addEventListener('touchstart', () => {
+let botãoP = document.getElementById('proximo').addEventListener('touchend', () => {
     if(cartaoatual > 23){
         window.alert('Fim Da Lista!') 
         cartaoatual = 24
