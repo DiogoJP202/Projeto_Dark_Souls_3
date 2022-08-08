@@ -209,15 +209,15 @@ footer{
     padding: 1px;
     margin-top: auto;
 }
-footer >p {
+footer {
     margin: 0px;
     color: white;
 }
-footer > p > a{
+footer > a{
     color: red;
     text-decoration: none;
 }
-footer > p > a:hover{
+footer > a:hover{
     color: black;
     background-color: white;
     padding: 1px;
