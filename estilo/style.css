@@ -32,6 +32,7 @@ img.imagemheader{
 }
 img.Boss{
     max-width: 100%;
+    max-height: 400px;
     margin: auto;
 }
 ul.bosses{
@@ -157,6 +158,26 @@ div.descrição{
     background-color:  rgb(206, 206, 206);
     text-align: center;
     max-height: 300px;
+    overflow-y: auto;
+}
+#CrystalSage{
+    max-height: 200px;
+    overflow-y: auto;
+}
+#YhormTheGiant{
+    max-height: 200px;
+    overflow-y: auto;
+}
+#DragonslayerArmour{
+    max-height: 200px;
+    overflow-y: auto;
+}
+#SisterFriede{
+    max-height: 200px;
+    overflow-y: auto;
+}
+#Halflight{
+    max-height: 200px;
     overflow-y: auto;
 }
 div.descrição>p{

@@ -3,7 +3,7 @@ let cartaoselecionado = document.getElementById('selecionado')
 function avancar(){
     if(cartaoatual > 23){
         window.alert('Fim Da Lista!') 
-        cartaoatual = 23
+        cartaoatual = 24
     } else {
     var cartoes = document.querySelectorAll('.Bosses')
     console.log(cartoes[cartaoatual])
@@ -35,11 +35,12 @@ let botãoV = document.getElementById('voltar').addEventListener('touchstart', (
     cartoes[cartaoatual + 1].removeAttribute('id')
     cartoes[cartaoatual].setAttribute('id', 'selecionado')
 }
-})
+}
+)
 let botãoP = document.getElementById('proximo').addEventListener('touchstart', () => {
-if(cartaoatual > 23){
+    if(cartaoatual > 23){
         window.alert('Fim Da Lista!') 
-        cartaoatual = 23
+        cartaoatual = 24
     } else {
     var cartoes = document.querySelectorAll('.Bosses')
     console.log(cartoes[cartaoatual])
@@ -47,4 +48,5 @@ if(cartaoatual > 23){
     cartoes[cartaoatual-1].removeAttribute('id')
     cartoes[cartaoatual].setAttribute('id', 'selecionado')
 } 
-})
+}
+)
