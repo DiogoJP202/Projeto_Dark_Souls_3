@@ -47,4 +47,4 @@ if(cartaoatual > 23){
     cartoes[cartaoatual-1].removeAttribute('id')
     cartoes[cartaoatual].setAttribute('id', 'selecionado')
 } 
-}
+})
