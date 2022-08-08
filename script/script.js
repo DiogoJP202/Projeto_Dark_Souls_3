@@ -1,7 +1,7 @@
 let cartaoatual = 0
 let cartaoselecionado = document.getElementById('selecionado')
 function avancar(){
-    if(cartaoatual > 22){
+    if(cartaoatual > 23){
         window.alert('Fim Da Lista!') 
         cartaoatual = 23
     } else {
@@ -25,7 +25,7 @@ function voltar(){
 }
 }
 function tavancar(){
-    if(cartaoatual > 22){
+    if(cartaoatual > 23){
         window.alert('Fim Da Lista!') 
         cartaoatual = 23
     } else {
