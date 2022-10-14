@@ -5,26 +5,27 @@
     }
 *{
     font-family: "dsfont";
+    padding: 0px;
+    margin: 0px;
 }
-html{
-    min-height: 100vh;
+html,body{
+    height: 98%;
 }
+
 body{
     background-image: url(../imagens/background2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    min-height: 100vh;
     margin: 0px; 
     padding: 0px;
-    display: flex;
-    flex-direction: column;
 }
 h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
+    margin-bottom: 60px;
 }
 img.imagemheader{
     width: 80px;
@@ -200,6 +201,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 85vh;
 }
 footer{
     margin: 0px 0px; 
@@ -208,14 +210,12 @@ footer{
     text-align: center;
     padding: 1px;
     margin-top: auto;
-}
-footer {
     margin: 0px;
     color: white;
 }
 footer > a{
     color: red;
-    text-decoration: none;
+    text-decoration: none;;
 }
 footer > a:hover{
     color: black;
