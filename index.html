@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Dark Souls 3</title>
-    <link rel="stylesheet" href="estilo/style.css">
-    <link rel="shortcut icon" href="imagens/Bonfire.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="estilo/mobile.css" media="all">
+    <link rel="stylesheet" href="estilo/styles.css">
+
+    <link rel="shortcut icon" href="imagens/img/Bonfire.ico" type="image/x-icon">
 </head>
 <body>
     <header>
         <h1>
-            <img src="imagens/MarcaHollow.png" alt="Sinal_hollow" class="imagemheader">
+            <img src="imagens/img/MarcaHollow.png" alt="Sinal_hollow" class="imagemheader">
             DARK SOULS 3
-            <img src="imagens/MarcaHollow.png" alt="Sinal_hollow" class="imagemheader">
+            <img src="imagens/img/MarcaHollow.png" alt="Sinal_hollow" class="imagemheader">
         </h1>
     </header>
-    <section>
+    <main>
         <button id="voltar" onclick="voltar()">
-            <img src="imagens/seta.png" alt="Seta" class="seta" id="voltar" >
+            <img src="imagens/img/seta.png" alt="Seta" class="seta" id="voltar" >
         </button>
-<ul type="none" class="bosses">
+        <ul type="none" class="bosses">
     <li class="Bosses" id="selecionado">
             <div class="fundo">
                 <p class="header">
@@ -1972,18 +1976,13 @@
                 </div>
             </div>
     </li>
-</ul>
-<button onclick="avancar()" id="proximo">
-    <img src="imagens/seta.png" alt="Seta" class="seta">
-</button>
-    </section>
+        </ul>
+        <button onclick="avancar()" id="proximo">
+        <img src="imagens/img/seta.png" alt="Seta" class="seta">
+        </button>
+    </main>
     <footer>
-     
-        Feito por 
-        <a href="https://github.com/DiogoJP202/DiogoAntonny" target="_blank">
-            Diogo Antonny
-        </a>
-      
+        © 2022 Diogo Antonny Front-End Developer Visit my <a href="https://github.com/DiogoJP202/DiogoAntonny" target="_blank">Github</a>  
     </footer>
     <script src="ScriptJS/script.js"></script>
 </body>
