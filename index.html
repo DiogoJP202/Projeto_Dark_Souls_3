@@ -22,85 +22,52 @@
     </header>
     <main>
         <button id="voltar" onclick="voltar()">
-            <img src="imagens/img/seta.png" alt="Seta" class="seta" id="voltar" >
+            <img src="imagens/img/hand.png" class="seta" id="voltar">
         </button>
-        <ul type="none" class="bosses">
-    <li class="Bosses" id="selecionado">
-            <div class="fundo">
-                <p class="header">
-                    <span class="bossname">
-                        Iudex Gundyr
-                    </span>
-                    <br>
-                    <span class="health">
-                        HP 1037
-                    </span>
-                    <span class="souls">
-                        SOULS 3000
-                    </span>
-                </p>
-                        <img src="imagens/Iudex_gundyr.png" alt="Iudex Gundyr" class="Boss">
-                        <div class="descrição">
-                <p>Iudex Gundyr é um grande humanóide vestido com armadura pesada e ataca o jogador usando uma grande alabarda. Os jogadores encontrarão uma espada fincada em seu peito quando o encontram pela primeira vez. Depois de seu hp ser reduzido a um certo limite, uma massa negra gigante emerge de seu pescoço que lhe dá acesso a ataques adicionais. Este chefe não é opcional e o jogador terá que enfrentá-lo para ter acesso ao Santuário Firelink.</p>
-                        </div>
-                   <div class="descriçãobasíca">
-                <div class="menufraqueza">
-                    <div class="fraquezas">
-                        Fraquezas:
-                    </div>
-                 <ul type="none">
-                       <li>
-                        <img src="imagens/strike-indent.jpg" style="width: 13px;">
-                        Strike
-                    </li>
-                       <li>
-                        <img src="imagens/lightning-indent.png">
-                        Lightning
-                    </li>
-                       <li>
-                        <img src="imagens/bleed-indent.png">
-                        Bleed
-                    </li>
-                       <li>
-                        <img src="imagens/frost-indent.png">
-                        Frostbite
-                    </li>
-                       <li>
-                        <img src="imagens/fgs-indent.png">
-                        Farron GreatSwoard
-                 </li>
-                </ul>
-                </div>
-                <div class="menuresistencias">
-                    <div class="resistencias">
-                        Resistencias:
-                    </div>
-                 <ul type="none">
-                    <li>
-                        <img src="imagens/dark-indent.png">
-                            Dark
-                    </li>
-                 </ul>
-                </div>
-                <div class="menuimunidades">
-                    <div class="imunidades">
-                        Imunidades:
-                    </div>
-                <ul type="none">
-                    <li>
-                        <img src="imagens/poison-indent.png">
-                        Poison
-                    </li>
-                    <li>
-                        <img src="imagens/toxic-indent.png">
-                        Toxic
-                    </li>
-                </ul>
-                </div>
-                   </div>
+        <div class="Bosses selecionado">
+            <div class="bossname">
+                Iudex Gundyr
             </div>
-    </li>
-    <li class="Bosses">
+            <div>
+                <p class="health">
+                    HP 1037
+                </p>
+                <p class="souls">
+                    SOULS 3000
+                </p>
+            </div>
+            <img src="imagens/bosses/Iudex_gundyr.png" alt="Iudex Gundyr">
+            <div class="descrição">
+                <p>Iudex Gundyr é um grande humanóide vestido com armadura pesada e ataca o jogador usando uma grande alabarda. Os jogadores encontrarão uma espada fincada em seu peito quando o encontram pela primeira vez. Depois de seu hp ser reduzido a um certo limite, uma massa negra gigante emerge de seu pescoço que lhe dá acesso a ataques adicionais. Este chefe não é opcional e o jogador terá que enfrentá-lo para ter acesso ao Santuário Firelink.</p>
+            </div>
+            <div class="descriçãobasíca">
+                <div class="status">
+                    <h2 class="fraquezas">Fraquezas:</h2>
+                    <ul type="none">
+                        <li> <img src="imagens/effects/strike-indent.jpg" style="width: 13px;"> Strike </li>
+                        <li> <img src="imagens/effects/lightning-indent.png"> Lightning </li>
+                        <li> <img src="imagens/effects/bleed-indent.png"> Bleed </li>
+                        <li> <img src="imagens/effects/frost-indent.png"> Frostbite </li>
+                        <li> <img src="imagens/effects/fgs-indent.png"> Farron GreatSwoard </li>
+                    </ul>
+                </div>
+                <div class="status">
+                    <h2 class="resistencias">Resistencias:</h2>
+                    <ul type="none">
+                        <li> <img src="imagens/effects/dark-indent.png"> Dark </li>
+                    </ul>
+                </div>
+                <div class="status">
+                    <h2 class="imunidades">Imunidades:</h2>
+                    <ul type="none"> 
+                        <li> <img src="imagens/effects/poison-indent.png"> Poison </li>
+                        <li> <img src="imagens/effects/toxic-indent.png"> Toxic </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!--
+        <li class="Bosses">
             <div class="fundo">
                 <p class="header">
                     <span class="bossname">
@@ -1976,13 +1943,14 @@
                 </div>
             </div>
     </li>
-        </ul>
+-->
         <button onclick="avancar()" id="proximo">
-        <img src="imagens/img/seta.png" alt="Seta" class="seta">
+        <img src="imagens/img/hand.png" alt="Seta" class="seta">
         </button>
     </main>
     <footer>
-        © 2022 Diogo Antonny Front-End Developer Visit my <a href="https://github.com/DiogoJP202/DiogoAntonny" target="_blank">Github</a>  
+        <p>© 2022 Diogo Antonny Front-End Developer</p> 
+        <p>Visit my <a href="https://github.com/DiogoJP202/DiogoAntonny" target="_blank">Github</p></a>  
     </footer>
     <script src="ScriptJS/script.js"></script>
 </body>

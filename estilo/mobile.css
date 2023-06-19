@@ -13,7 +13,7 @@
 }
 
 html, body{
-    height: 100vh;
+    height: 100%;
 }
 
 body{
@@ -46,13 +46,15 @@ header > h1{
     margin: 0px;
 }
 
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 button{
-    width: 50px;
-    height: 50px;
-
-    margin: auto; 
-
-    text-align: center;
+    background-color: transparent;
+    border: transparent;
 
     cursor: pointer;
 
@@ -60,197 +62,183 @@ button{
 }
 
 button:hover{
-    background-image: linear-gradient(45deg, #fe5e65, #623e48);
     transition: 0.5s;
-    opacity: 0.5;
+    transform: scale(1.3);
 }
 
 .seta{
-    width: 30px;
+    width: 90px;
+
+    transform: rotate(30deg);
 }
 
 img#voltar{
-    transform: scaleX(-1);
+    transform: scaleX(-1) rotate(30deg);
 }
 
-.Boss{
-    max-width: 100%;
-    max-height: 350px;
-
-    margin: auto;
+.selecionado{
+    opacity: 1 !important;
+    z-index: 1 !important;
 }
 
-ul.bosses{
-    padding: 0px;
-    margin: auto;
-
-    min-width: 320px;
-    max-width: 60%; 
-
-    min-height: 800px;
+.Bosses{
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+
+    width: 290px;
+
     text-align: center;
-    position: relative; 
-}
-li.Bosses{
-    background-color: white;
-    border: 5px solid black;
-    box-shadow: 2px 2px 50px black;
+
+    border: 1px solid #000;
+    box-shadow: 2px 2px 10px #f00;
+    
     opacity: 0;
-    position: absolute;
+    z-index: 0;
     transition: opacity 0.2s ease-in-out;
 }
-li#selecionado{
-    opacity: 1;
-    z-index: 1;
-}
 
-p.header{
-margin: 0px;
-}
-p.header > span.bossname{
+.bossname{
     display: block;
-    font-weight: 600;
+    
     margin-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: yellow;
-    border-style: solid;
-    border-width: 1px;
-}
-p.header > span.health{
-    font-weight: 600;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: red;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-}
-p.header > span.souls{
-    color: white;
-    font-weight: 600;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: rgb(17, 0, 255);
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-}
-div.fraquezas{
-    font-weight: 600;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: rgb(0, 110, 255);
-    border-style: solid;
-    border-width: 1px;
-}
-div.menufraqueza{
-    width: 50%;
-}
-div.menuresistencias{
-    width: 50%;
-}
-div.menuimunidades{
-    width: 50%;
-}
-div.resistencias{
-    font-weight: 600;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: rgb(119, 0, 255);
-    border-style: solid;
-    border-width: 1px;
-}
-div.imunidades{
-    font-weight: 600;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: rgb(30, 255, 0);
-    border-style: solid;
-    border-width: 1px;
-}
-ul{
-    padding: 0px; 
+    padding: 3px 0px;
+
+    font-weight: 900;
+    color: #fff;
+
+    background-color: #000;
 }
 
-div.descrição{
-    background-color:  rgb(206, 206, 206);
+.health, .souls{
+    display: block;
+    width: 90%;
+
+    margin: 5px auto;
+    padding: 2px;
+
+    font-weight: 600;
+
+    border: 1px outset #bebebe;
+}
+
+.health{
+    color: #000;
+
+    background-color: #f00;
+}
+
+.souls{
+    color: white;
+
+    background-color: #00f;
+}
+
+.descriçãobasíca{
+    display: flex;
+    justify-content: center;
+
+    text-align: left;
+
+    background-color: #fff;
+}
+
+.descrição{
+    max-height: auto;
+
+    padding: 10px 0;
+
     text-align: center;
-    max-height: 300px;
+
+    background-color:  #fff;
+
     overflow-y: auto;
 }
-#CrystalSage{
+
+.descrição > p{
+    padding: 5px;
+
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.status{
+    width: 33.33%;
+}
+
+.fraquezas, .resistencias, .imunidades{
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+
+    border: 1px solid #000;
+}
+
+.fraquezas{
+    background-color: #00f;
+}
+
+.resistencias{
+    background-color: rgb(119, 0, 255);
+}
+
+.imunidades{
+    background-color: rgb(15, 131, 0);
+}
+
+li{
+    padding-top: 5px;
+}
+
+/* #CrystalSage{
     max-height: 200px;
     overflow-y: auto;
 }
+
 #YhormTheGiant{
     max-height: 200px;
     overflow-y: auto;
 }
+
 #DragonslayerArmour{
     max-height: 200px;
     overflow-y: auto;
 }
+
 #SisterFriede{
     max-height: 200px;
     overflow-y: auto;
 }
+
 #Halflight{
     max-height: 200px;
     overflow-y: auto;
-}
-div.descrição>p{
-    margin-bottom: 0px;
-}
-div.descriçãobasíca{
-    background-color: rgb(206, 206, 206);
-    display: flex;
-    text-align: left;
-    justify-content: center;
-}
-div.fundo{
-    background-image: url(../imagens/background2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 85vh;
-}
+} */
+
+
 footer{
-    margin: 0px 0px; 
-    background-color: black;
+    padding: 5px;
+
     font-size: 25px;
     text-align: center;
-    padding: 1px;
-    margin-top: auto;
-    margin: 0px;
-    color: white;
+    color: #fff;
+
+    background-color: #000;
 }
-footer > a{
-    color: red;
-    text-decoration: none;;
+
+a{
+    color: #f00;
+    text-decoration: none;
 }
-footer > a:hover{
-    color: black;
-    background-color: white;
+
+a:hover{
     padding: 1px;
+
+    color: #000;
+
+    background-color: #fff;
     border-radius: 10px;
-}
-div.Bosses.selecionado{
-    opacity: 1;
-    z-index: 1;
 }
