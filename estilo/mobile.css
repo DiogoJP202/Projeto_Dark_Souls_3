@@ -79,6 +79,7 @@ img#voltar{
 .selecionado{
     opacity: 1 !important;
     z-index: 1 !important;
+    position: relative !important;
 }
 
 .Bosses{
@@ -95,6 +96,7 @@ img#voltar{
     
     opacity: 0;
     z-index: 0;
+    position: absolute;
     transition: opacity 0.2s ease-in-out;
 }
 
