@@ -1,13 +1,12 @@
 // FAZER ANIMAÇÃO DE TROCA DE CARTÃO;
 // FAZER UM ARRAY DE OBJETOS DOS CARTOES DOS BOSSES;
-
 const names = ['Iudex Gundyr', 'Vordt Of Boreal Valley', 'Cursed Rotted GreatWood', 'Crystal Sage', 'Deacons Of The Deep', 'Abyss Watchers', 'High Lord Wolnir', 'Old Demon King', 'Pontiff Sulyvahn', 'Aldrich Devourer Of Gods', 'Yhorm The Giant', 'Dancer Of Boreal Valley', 'Dragonslayer Armour', 'Lorian Elder Prince And Lothric Young Prince', 'Oceiros The Consumed King', 'Champion Gundyr', 'Ancient Wyvern', 'Nameless King', 'Soul Of Cinder', "Champion's Gravatender", 'Sister Friede', 'Demon Prince', 'Darkeater Midir', 'Halflight', 'Slave Knight Gael'];
 
-const healfs = ['HP 1037', 'HP 1328', 'HP 5405', 'HP 2723', 'HP 4099', 'HP 1548', 'HP 15.041', 'HP 5301', 'HP 5106', 'HP 4727', 'HP 27.822', 'HP 5111', 'HP 4581', 'HP Lorian 7730', 'HP Lothric 5799', 'HP 8087', 'HP 4956', 'HP 7873', 'HP com wyvern 4577', 'HP 7100', 'HP fase 1 6557', 'HP fase 2 4209', 'HP 2791 (Gravatender) HP 4193 (Gravatwolf)', 'HP fase 1 4863', 'HP fase 2 7150', 'HP fase 3 6864', 'HP 7045', 'HP 15.860', 'HP 3350', 'HP 15.037'];
+const healfs = ['HP 1037', 'HP 1328', 'HP 5405', 'HP 2723', 'HP 4099', 'HP 1548', 'HP 15.041', 'HP 5301', 'HP 5106', 'HP 4727', 'HP 27.822', 'HP 5111', 'HP 4581', 'HP Lorian: 7730 Lothric: 5799', 'HP 8087', 'HP 4956', 'HP 7873', 'HP com wyvern 4577', 'HP 7100', 'HP fase 1 6557', 'HP fase 2 4209', 'HP 2791 (Gravatender) HP 4193 (Gravatwolf)', 'HP fase 1 4863', 'HP fase 2 7150', 'HP fase 3 6864', 'HP 7045', 'HP 15.860', 'HP 3350', 'HP 15.037'];
 
 const souls = ['SOULS 3000', 'SOULS 3000', 'SOULS 7000', 'SOULS 8000', 'SOULS 13.000', 'SOULS 18.000', 'SOULS 22.000', 'SOULS 25.000', 'SOULS 28.000', 'SOULS 50.000', 'SOULS 36.000', 'SOULS 60.000', 'SOULS 48.000', 'SOULS 85.000', 'SOULS 58.000', 'SOULS 60.000', 'SOULS 70.000', 'SOULS 80.000', 'SOULS 100.000', 'SOULS 60.000', 'SOULS 72.000', 'SOULS 100.000', 'SOULS 150.000', 'SOULS 80.000', 'SOULS 120.000'];
 
-const imgs = ['../imagens/img/Iudex_gundyr.png',  '../imagens/img/Vordt_of_boreal_valley.png', '../imagens/img/Cursed_rotted_greatwood.png', '../imagens/img/Crystal_sage.png', '../imagens/img/Deacons_of_the_deep.png', '../imagens/img/Abyss_watchers.png', '../imagens/img/High_lord_wolnir.png', '../imagens/img/Old_demon_king.png', '../imagens/img/Pontiff_sulyvahn.png', '../imagens/img/Aldrich_devourer_of_gods.png', '../imagens/img/Yhorm_the_giant2.png', '../imagens/img/Dancer_of_boreal_valley.png', '../imagens/img/Dragonslayer_armour.png', '../imagens/img/lorian_elder_prince_lothric_young_prince.png', '../imagens/img/Oceiros_the_consumed_king.png', '../imagens/img/Champion_gundyr.png', '../imagens/img/Ancient_wyvern.png', '../imagens/img/nameless_king.png', '../imagens/img/Soul_of_cinder.png', "../imagens/img/Champion's_gravatender.jpg", '../imagens/img/Sister_friede.png', '../imagens/img/Demon_prince.png', '../imagens/img/Darkeater_midir.png', '../imagens/img/Halflight.jpeg', '../imagens/img/Slave_knight_gael.png']
+const bossesSrc = ['../imagens/bosses/Iudex_gundyr.png',  '../imagens/bosses/Vordt_of_boreal_valley.png', '../imagens/bosses/Cursed_rotted_greatwood.png', '../imagens/bosses/Crystal_sage.png', '../imagens/bosses/Deacons_of_the_deep.png', '../imagens/bosses/Abyss_watchers.png', '../imagens/bosses/High_lord_wolnir.png', '../imagens/bosses/Old_demon_king.png', '../imagens/bosses/Pontiff_sulyvahn.png', '../imagens/bosses/Aldrich_devourer_of_gods.png', '../imagens/bosses/Yhorm_the_giant2.png', '../imagens/bosses/Dancer_of_boreal_valley.png', '../imagens/bosses/Dragonslayer_armour.png', '../imagens/bosses/lorian_elder_prince_lothric_young_prince.png', '../imagens/bosses/Oceiros_the_consumed_king.png', '../imagens/bosses/Champion_gundyr.png', '../imagens/bosses/Ancient_wyvern.png', '../imagens/bosses/nameless_king.png', '../imagens/bosses/Soul_of_cinder.png', "../imagens/bosses/Champion's_gravatender.jpg", '../imagens/bosses/Sister_friede.png', '../imagens/bosses/Demon_prince.png', '../imagens/bosses/Darkeater_midir.png', '../imagens/bosses/Halflight.jpeg', '../imagens/bosses/Slave_knight_gael.png']
 
 const texts = [
     "Iudex Gundyr é um grande humanóide vestido com armadura pesada e ataca o jogador usando uma grande alabarda. Os jogadores encontrarão uma espada fincada em seu peito quando o encontram pela primeira vez. Depois de seu hp ser reduzido a um certo limite, uma massa negra gigante emerge de seu pescoço que lhe dá acesso a ataques adicionais. Este chefe não é opcional e o jogador terá que enfrentá-lo para ter acesso ao Santuário Firelink.",
@@ -37,9 +36,7 @@ const texts = [
     "Halflight é um humano empunhando uma espada e escudo na batalha e aparecerá como o chefe desta área se o jogador estiver no modo offline. No entanto, quando eles estão no modo online, essa luta de chefe é travada contra outro jogador, semelhante a uma luta PvP. Independentemente de qual chefe é gerado, dois NPCs guardiões aparecerão para ajudar o chefe - um aparece no início da luta, o outro quando o chefe atinge aproximadamente metade da saúde.",
     "Slave Knight Gael é uma aberração criada ao consumir o Dark Soul. Não se sabe por qual reino Gael lutou ou em quais guerras ele atuou. Em algum momento de sua vida ele encontrou o Mundo Pintado de Ariandel e uma jovem que desejava pintar um mundo novo. Ele usa uma capa vermelha visivelmente brilhante. Quando os jogadores o encontram, ele primeiro se move e luta como uma fera de quatro, mas depois se endireita quando é reduzido a um certo limite de saúde."]
 
-const effects = [
-    ["../effects/BlackKnight.png", "../effects/bleed-indent.png", "../effects/blessed_weapon.png", "../effects/dark-indent.png", "../effects/fgs-indent.png", "../effects/fire-indent.png", "../effects/frost-indent.png", "../effects/lightning-indent.png", "../effects/magic-indent.png", "../effects/pestilent_mercury.png", "../effects/physica-indent.lpng.png", "../effects/poison-indent.png", "../effects/strike-indent.jpg", "../effects/toxic-indent.png", "../effects/vow_of_silence.png", "../effects/wolf_knights_greatsword.png"]
-]
+const effects = ["../effects/BlackKnight.png", "../effects/bleed-indent.png", "../effects/blessed_weapon.png", "../effects/dark-indent.png", "../effects/fgs-indent.png", "../effects/fire-indent.png", "../effects/frost-indent.png", "../effects/lightning-indent.png", "../effects/magic-indent.png", "../effects/pestilent_mercury.png", "../effects/physica-indent.lpng.png", "../effects/poison-indent.png", "../effects/strike-indent.jpg", "../effects/toxic-indent.png", "../effects/vow_of_silence.png", "../effects/wolf_knights_greatsword.png"]
 
 const bosses = [];
 
@@ -48,7 +45,7 @@ for(let c = 0; bosses.length < 26; c++){
         name: names[c],
         healf: healfs[c],
         soul: souls[c],
-        src: imgs[c],
+        src: bossesSrc[c],
         description: texts[c]
     })
 }
@@ -59,7 +56,9 @@ class Card{
         this.bossHP = document.querySelectorAll('.health');
         this.bossSoul = document.querySelectorAll('.souls');
         this.bossDescription = document.querySelectorAll('.descrição');
+        this.bossSrc = document.querySelectorAll('.src');
         this.bossCardSelect = document.querySelectorAll('.Bosses');
+        this.effects = [document.querySelectorAll('.UFraquezas'), document.querySelectorAll('.UResistencias'), document.querySelectorAll('.UImunidades')];
         this.bossNumber = 0;
     }
 
@@ -80,6 +79,104 @@ class Card{
             this.bossCardSelect[1].classList.remove('selecionado');
         }
     }
+
+    putStatus(number){
+        const bk = "../Imagens/effects/BlackKnight.png";
+        const bi = "../Imagens/effects/bleed-indent.png";
+        const bw = "../Imagens/effects/blessed_weapon.png";
+        const di = "../Imagens/effects/dark-indent.png";
+        const fgi = "../Imagens/effects/fgs-indent.png";
+        const fri = "../Imagens/effects/fire-indent.png";
+        const fsi = "../Imagens/effects/frost-indent.png";
+        const li = "../Imagens/effects/lightning-indent.png";
+        const mg = "../Imagens/effects/magic-indent.png";
+        const pl = "../Imagens/effects/pestilent_mercury.png";
+        const pi = "../Imagens/effects/physica-indent.png";
+        const poi = "../Imagens/effects/poison-indent.png";
+        const si = "../Imagens/effects/strike-indent.png";
+        const ti = "../Imagens/effects/toxic-indent.png";
+        const vw = "../Imagens/effects/vow_of_silence.png";
+        const wg = "../Imagens/effects/wolf_knights_greatsword.png";
+
+        this.effects[0][this.bossCard(number)].innerHTML = "";
+        this.effects[1][this.bossCard(number)].innerHTML = "";
+        this.effects[2][this.bossCard(number)].innerHTML = "";
+
+        // switch (number) {
+        //     case 0:
+                
+        //     break;
+        //     case 1:
+                
+        //     break;
+        //     case 2:
+                
+        //     break;
+        //     case 3:
+                
+        //     break;
+        //     case 4:
+                
+        //     break;
+        //     case 5:
+                
+        //     break;
+        //     case 6:
+                
+        //     break;
+        //     case 7:
+                
+        //     break;
+        //     case 8:
+                
+        //     break;
+        //     case 9:
+                
+        //     break;
+        //     case 10:
+                
+        //     break;
+        //     case 11:
+                
+        //     break;
+        //     case 12:
+                
+        //     break;
+        //     case 13:
+                
+        //     break;
+        //     case 14:
+                
+        //     break;
+        //     case 15:
+                
+        //     break;
+        //     case 16:
+                
+        //     break;
+        //     case 17:
+                
+        //     break;
+        //     case 18:
+                
+        //     break;
+        //     case 19:
+                
+        //     break;
+        //     case 20:
+                
+        //     break;
+        //     case 21:
+                
+        //     break;
+        //     case 22:
+                
+        //     break;
+        //     case 23:
+                
+        //     break;
+        // }
+    }
 }
 
 document.addEventListener('click', event => {
@@ -95,10 +192,13 @@ document.addEventListener('click', event => {
         card.bossHP[card.bossCard(card.bossNumber)].innerHTML = healfs[card.bossNumber];
         card.bossSoul[card.bossCard(card.bossNumber)].innerHTML = souls[card.bossNumber];
         card.bossDescription[card.bossCard(card.bossNumber)].innerHTML = texts[card.bossNumber];
+
+        card.bossSrc[card.bossCard(card.bossNumber)].src = bossesSrc[card.bossNumber];
+        card.putStatus(card.bossNumber);
     }
 
     if(element.classList.contains('proximo')){
-        if(card.bossNumber === 26) return window.alert("Fim da lista!");
+        if(card.bossNumber === 24) return window.alert("Fim da lista!");
         
         card.oculteCard(card.bossCard(card.bossNumber));
         card.bossNumber++;
@@ -107,6 +207,9 @@ document.addEventListener('click', event => {
         card.bossHP[card.bossCard(card.bossNumber)].innerHTML = healfs[card.bossNumber];
         card.bossSoul[card.bossCard(card.bossNumber)].innerHTML = souls[card.bossNumber];
         card.bossDescription[card.bossCard(card.bossNumber)].innerHTML = texts[card.bossNumber];
+        
+        card.bossSrc[card.bossCard(card.bossNumber)].src = bossesSrc[card.bossNumber];
+        card.putStatus(card.bossNumber);
     }
 })
 

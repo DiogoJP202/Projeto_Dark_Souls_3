@@ -97,7 +97,7 @@ img#voltar{
     opacity: 0;
     z-index: 0;
     position: absolute;
-    transition: opacity 0.2s ease-in-out;
+    transition:  0.5s ease-in-out;
 }
 
 .bossname{
@@ -157,7 +157,7 @@ img#voltar{
     overflow-y: auto;
 }
 
-.descrição > p{
+.descrição{
     padding: 5px;
 
     text-align: left;
@@ -194,32 +194,6 @@ img#voltar{
 li{
     padding-top: 5px;
 }
-
-/* #CrystalSage{
-    max-height: 200px;
-    overflow-y: auto;
-}
-
-#YhormTheGiant{
-    max-height: 200px;
-    overflow-y: auto;
-}
-
-#DragonslayerArmour{
-    max-height: 200px;
-    overflow-y: auto;
-}
-
-#SisterFriede{
-    max-height: 200px;
-    overflow-y: auto;
-}
-
-#Halflight{
-    max-height: 200px;
-    overflow-y: auto;
-} */
-
 
 footer{
     padding: 5px;
