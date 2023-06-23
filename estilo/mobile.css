@@ -218,3 +218,8 @@ a:hover{
     background-color: #fff;
     border-radius: 10px;
 }
+
+.animation{
+    transition: .9s;
+    transform: rotateY(170deg) rotateZ(50deg) scale(0.5);
+}
