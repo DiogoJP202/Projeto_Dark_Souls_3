@@ -13,7 +13,7 @@ const souls = [
 ];
 
 const bossesSrc = [
-    '../imagens/bosses/Iudex_gundyr.png',  '../imagens/bosses/Vordt_of_boreal_valley.png', '../imagens/bosses/Cursed_rotted_greatwood.png', '../imagens/bosses/Crystal_sage.png', '../imagens/bosses/Deacons_of_the_deep.png', '../imagens/bosses/Abyss_watchers.png', '../imagens/bosses/High_lord_wolnir.png', '../imagens/bosses/Old_demon_king.png', '../imagens/bosses/Pontiff_sulyvahn.png', '../imagens/bosses/Aldrich_devourer_of_gods.png', '../imagens/bosses/Yhorm_the_giant2.png', '../imagens/bosses/Dancer_of_boreal_valley.png', '../imagens/bosses/Dragonslayer_armour.png', '../imagens/bosses/lorian_elder_prince_lothric_young_prince.png', '../imagens/bosses/Oceiros_the_consumed_king.png', '../imagens/bosses/Champion_gundyr.png', '../imagens/bosses/Ancient_wyvern.png', '../imagens/bosses/nameless_king.png', '../imagens/bosses/Soul_of_cinder.png', "../imagens/bosses/Champion's_gravatender.jpg", '../imagens/bosses/Sister_friede.png', '../imagens/bosses/Demon_prince.png', '../imagens/bosses/Darkeater_midir.png', '../imagens/bosses/Halflight.jpeg', '../imagens/bosses/Slave_knight_gael.png'
+    'imagens/bosses/Iudex_gundyr.png',  'imagens/bosses/Vordt_of_boreal_valley.png', 'imagens/bosses/Cursed_rotted_greatwood.png', 'imagens/bosses/Crystal_sage.png', 'imagens/bosses/Deacons_of_the_deep.png', 'imagens/bosses/Abyss_watchers.png', 'imagens/bosses/High_lord_wolnir.png', 'imagens/bosses/Old_demon_king.png', 'imagens/bosses/Pontiff_sulyvahn.png', 'imagens/bosses/Aldrich_devourer_of_gods.png', 'imagens/bosses/Yhorm_the_giant2.png', 'imagens/bosses/Dancer_of_boreal_valley.png', 'imagens/bosses/Dragonslayer_armour.png', 'imagens/bosses/lorian_elder_prince_lothric_young_prince.png', 'imagens/bosses/Oceiros_the_consumed_king.png', 'imagens/bosses/Champion_gundyr.png', 'imagens/bosses/Ancient_wyvern.png', 'imagens/bosses/nameless_king.png', 'imagens/bosses/Soul_of_cinder.png', "imagens/bosses/Champion's_gravatender.jpg", 'imagens/bosses/Sister_friede.png', 'imagens/bosses/Demon_prince.png', 'imagens/bosses/Darkeater_midir.png', 'imagens/bosses/Halflight.jpeg', 'imagens/bosses/Slave_knight_gael.png'
 ];
 
 const texts = [
@@ -46,7 +46,7 @@ const texts = [
 ];
 
 const effects = [
-    "../effects/BlackKnight.png", "../effects/bleed-indent.png", "../effects/blessed_weapon.png", "../effects/dark-indent.png", "../effects/fgs-indent.png", "../effects/fire-indent.png", "../effects/frost-indent.png", "../effects/lightning-indent.png", "../effects/magic-indent.png", "../effects/pestilent_mercury.png", "../effects/physica-indent.lpng.png", "../effects/poison-indent.png", "../effects/strike-indent.jpg", "../effects/toxic-indent.png", "../effects/vow_of_silence.png", "../effects/wolf_knights_greatsword.png"
+    "effects/BlackKnight.png", "effects/bleed-indent.png", "effects/blessed_weapon.png", "effects/dark-indent.png", "effects/fgs-indent.png", "effects/fire-indent.png", "effects/frost-indent.png", "effects/lightning-indent.png", "effects/magic-indent.png", "effects/pestilent_mercury.png", "effects/physica-indent.lpng.png", "effects/poison-indent.png", "effects/strike-indent.jpg", "effects/toxic-indent.png", "effects/vow_of_silence.png", "effects/wolf_knights_greatsword.png"
 ];
 
 class Card{
