@@ -44,7 +44,7 @@ const texts = [
 ];
 
 const effects = [
-    "effects/BlackKnight.png", "effects/bleed-indent.png", "effects/blessed_weapon.png", "effects/dark-indent.png", "effects/fgs-indent.png", "effects/fire-indent.png", "effects/frost-indent.png", "effects/lightning-indent.png", "effects/magic-indent.png", "effects/pestilent_mercury.png", "effects/physica-indent.lpng.png", "effects/poison-indent.png", "effects/strike-indent.jpg", "effects/toxic-indent.png", "effects/vow_of_silence.png", "effects/wolf_knights_greatsword.png"
+    "../effects/BlackKnight.png", "../effects/bleed-indent.png", "../effects/blessed_weapon.png", "../effects/dark-indent.png", "../effects/fgs-indent.png", "../effects/fire-indent.png", "../effects/frost-indent.png", "../effects/lightning-indent.png", "../effects/magic-indent.png", "../effects/pestilent_mercury.png", "../effects/physica-indent.lpng.png", "../effects/poison-indent.png", "../effects/strike-indent.jpg", "../effects/toxic-indent.png", "../effects/vow_of_silence.png", "../effects/wolf_knights_greatsword.png"
 ];
 
 class Card{
