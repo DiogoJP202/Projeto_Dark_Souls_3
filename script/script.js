@@ -1,5 +1,3 @@
-// FAZER ANIMAÇÃO DE TROCA DE CARTÃO;
-// FAZER CARTA VIRAR PARA ESQUERDA rotate3d(0, 1, 0.5, 3.142rad);
 const names = [
     'Iudex Gundyr', 'Vordt Of Boreal Valley', 'Cursed Rotted GreatWood', 'Crystal Sage', 'Deacons Of The Deep', 'Abyss Watchers', 'High Lord Wolnir', 'Old Demon King', 'Pontiff Sulyvahn', 'Aldrich Devourer Of Gods', 'Yhorm The Giant', 'Dancer Of Boreal Valley', 'Dragonslayer Armour', 'Lorian Elder Prince And Lothric Young Prince', 'Oceiros The Consumed King', 'Champion Gundyr', 'Ancient Wyvern', 'Nameless King', 'Soul Of Cinder', "Champion's Gravatender", 'Sister Friede', 'Demon Prince', 'Darkeater Midir', 'Halflight', 'Slave Knight Gael'
 ];

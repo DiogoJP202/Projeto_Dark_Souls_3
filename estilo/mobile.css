@@ -26,6 +26,8 @@ body{
 
     background: url(../imagens/img/background.jpg)  no-repeat  center center fixed;
     background-size: cover;
+    
+    overflow: hidden;
 }
 
 header{
@@ -48,7 +50,7 @@ header > h1{
 
 main{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
