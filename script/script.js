@@ -11,7 +11,7 @@ const souls = [
 ];
 
 const bossesSrc = [
-    'imagens/bosses/Iudex_gundyr.png',  'imagens/bosses/Vordt_of_boreal_valley.png', 'imagens/bosses/Cursed_rotted_greatwood.png', 'imagens/bosses/Crystal_sage.png', 'imagens/bosses/Deacons_of_the_deep.png', 'imagens/bosses/Abyss_watchers.png', 'imagens/bosses/High_lord_wolnir.png', 'imagens/bosses/Old_demon_king.png', 'imagens/bosses/Pontiff_sulyvahn.png', 'imagens/bosses/Aldrich_devourer_of_gods.png', 'imagens/bosses/Yhorm_the_giant2.png', 'imagens/bosses/Dancer_of_boreal_valley.png', 'imagens/bosses/Dragonslayer_armour.png', 'imagens/bosses/lorian_elder_prince_lothric_young_prince.png', 'imagens/bosses/Oceiros_the_consumed_king.png', 'imagens/bosses/Champion_gundyr.png', 'imagens/bosses/Ancient_wyvern.png', 'imagens/bosses/nameless_king.png', 'imagens/bosses/Soul_of_cinder.png', "imagens/bosses/Champion's_gravatender.jpg", 'imagens/bosses/Sister_friede.png', 'imagens/bosses/Demon_prince.png', 'imagens/bosses/Darkeater_midir.png', 'imagens/bosses/Halflight.jpeg', 'imagens/bosses/Slave_knight_gael.png'
+    '../imagens/bosses/Iudex_gundyr.png',  '../imagens/bosses/Vordt_of_boreal_valley.png', '../imagens/bosses/Cursed_rotted_greatwood.png', '../imagens/bosses/Crystal_sage.png', '../imagens/bosses/Deacons_of_the_deep.png', '../imagens/bosses/Abyss_watchers.png', '../imagens/bosses/High_lord_wolnir.png', '../imagens/bosses/Old_demon_king.png', '../imagens/bosses/Pontiff_sulyvahn.png', '../imagens/bosses/Aldrich_devourer_of_gods.png', '../imagens/bosses/Yhorm_the_giant2.png', '../imagens/bosses/Dancer_of_boreal_valley.png', '../imagens/bosses/Dragonslayer_armour.png', '../imagens/bosses/lorian_elder_prince_lothric_young_prince.png', '../imagens/bosses/Oceiros_the_consumed_king.png', '../imagens/bosses/Champion_gundyr.png', '../imagens/bosses/Ancient_wyvern.png', '../imagens/bosses/nameless_king.png', '../imagens/bosses/Soul_of_cinder.png', "../imagens/bosses/Champion's_gravatender.jpg", '../imagens/bosses/Sister_friede.png', '../imagens/bosses/Demon_prince.png', '../imagens/bosses/Darkeater_midir.png', '../imagens/bosses/Halflight.jpeg', '../imagens/bosses/Slave_knight_gael.png'
 ];
 
 const texts = [
@@ -88,22 +88,22 @@ class Card{
     }
 
     putStatus(number){
-        const BlackKnight = "<li> <img src='Imagens/effects/BlackKnight.png' style='width: 13px;'> BlackKnight Weapons";
-        const bleed = "<li> <img src='Imagens/effects/bleed-indent.png' style='width: 13px;'> bleed";
-        const blessed = "<li> <img src='Imagens/effects/blessed_weapon.png' style='width: 13px;'> blessed";
-        const dark = "<li> <img src='Imagens/effects/dark-indent.png' style='width: 13px;'> dark";
-        const fgs = "<li> <img src='Imagens/effects/fgs-indent.png' style='width: 13px;'> Farron GreatSwoard";
-        const fire = "<li> <img src='Imagens/effects/fire-indent.png' style='width: 13px;'> fire";
-        const frost = "<li> <img src='Imagens/effects/frost-indent.png' style='width: 13px;'> frost";
-        const lightning = "<li> <img src='Imagens/effects/lightning-indent.png' style='width: 13px;'> lightning";
-        const magic = "<li> <img src='Imagens/effects/magic-indent.png' style='width: 13px;'> magic";
-        const pestilentMercury = "<li> <img src='Imagens/effects/pestilent_mercury.png' style='width: 13px;'> pestilent mercury";
-        const physica = "<li> <img src='Imagens/effects/physica-indent.png' style='width: 13px;'> physica";
-        const poison = "<li> <img src='Imagens/effects/poison-indent.png' style='width: 13px;'> poison";
-        const strike = "<li> <img src='Imagens/effects/strike-indent.jpg' style='width: 13px;'>";
-        const toxic = "<li> <img src='Imagens/effects/toxic-indent.png' style='width: 13px;'> toxic";
-        const vowOfSilence = "<li> <img src='Imagens/effects/vow_of_silence.png' style='width: 13px;'> vow of silence";
-        const wolfKnightsGreatsword = "<li> <img src='Imagens/effects/wolf_knights_greatsword.png' style='width: 13px;'> wolf knights greatsword";
+        const BlackKnight = "<li> <img src='../effects/BlackKnight.png' style='width: 13px;'> BlackKnight Weapons";
+        const bleed = "<li> <img src='../imagens/effects/bleed-indent.png' style='width: 13px;'> bleed";
+        const blessed = "<li> <img src='../imagens/effects/blessed_weapon.png' style='width: 13px;'> blessed";
+        const dark = "<li> <img src='../imagens/effects/dark-indent.png' style='width: 13px;'> dark";
+        const fgs = "<li> <img src='../imagens/effects/fgs-indent.png' style='width: 13px;'> Farron GreatSwoard";
+        const fire = "<li> <img src='../imagens/effects/fire-indent.png' style='width: 13px;'> fire";
+        const frost = "<li> <img src='../imagens/effects/frost-indent.png' style='width: 13px;'> frost";
+        const lightning = "<li> <img src='../imagens/effects/lightning-indent.png' style='width: 13px;'> lightning";
+        const magic = "<li> <img src='../imagens/effects/magic-indent.png' style='width: 13px;'> magic";
+        const pestilentMercury = "<li> <img src='../imagens/effects/pestilent_mercury.png' style='width: 13px;'> pestilent mercury";
+        const physica = "<li> <img src='../imagens/effects/physica-indent.png' style='width: 13px;'> physica";
+        const poison = "<li> <img src='../imagens/effects/poison-indent.png' style='width: 13px;'> poison";
+        const strike = "<li> <img src='../imagens/effects/strike-indent.jpg' style='width: 13px;'>";
+        const toxic = "<li> <img src='../imagens/effects/toxic-indent.png' style='width: 13px;'> toxic";
+        const vowOfSilence = "<li> <img src='../imagens/effects/vow_of_silence.png' style='width: 13px;'> vow of silence";
+        const wolfKnightsGreatsword = "<li> <img src='../imagens/effects/wolf_knights_greatsword.png' style='width: 13px;'> wolf knights greatsword";
 
         this.effects[0][this.bossCard(number)].innerHTML = ``;
         this.effects[1][this.bossCard(number)].innerHTML = ``;
