@@ -9,3 +9,4 @@
   <li> Javascript;
 </ul>
 <a href="https://diogojp202.github.io/Projeto_Dark_Souls_3/index.html">Clique aqui para abrir o projeto</a>
+&copy; Feito por <a href="https://diogojp202.github.io/Portifolio/" target="_blank">Diogo Antonny</a>
